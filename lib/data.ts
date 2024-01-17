@@ -70,7 +70,7 @@ export const projectsData = [
       "I cloned ChatGPT during its peak popularity as it was a hot issue, diving into groundbreaking conversational AI technology.",
     tags: ["TypeScript", "React", "Next.js", "Tailwind", "Oauth"],
     imageUrl: chatGPTClone,
-    links: "#",
+    links: "https://chat-gpt-clone-dev.vercel.app",
   },
   // {
   //   title: "Word Analytics",
