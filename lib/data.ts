@@ -1,5 +1,6 @@
 import ACSIS from "@/public/acsis-landing-page.png";
 import chatGPTClone from "@/public/gpt-clone.png";
+import digitalDazzle from "@/public/digitaldazzle.png";
 
 export const links = [
   {
@@ -71,6 +72,26 @@ export const projectsData = [
     tags: ["TypeScript", "React", "Next.js", "Tailwind", "Oauth"],
     imageUrl: chatGPTClone,
     links: "https://chat-gpt-clone-dev.vercel.app",
+  },
+  {
+    title: "Digitaldazzle",
+    description:
+      "Discover DigitalDazel: Your ultimate online shopping destination. Browse diverse products with ease, secure payments, and hassle-free ordering. Shop now!",
+    tags: [
+      "React",
+      "Next.js",
+      "Mongodb",
+      "Node",
+      "Express",
+      "Redux",
+      "JWT",
+      "Paypal",
+      "Redux-toolkit",
+      "Bootstrap",
+      "react-toastify",
+    ],
+    imageUrl: digitalDazzle,
+    links: "https://digitaldazzle.onrender.com",
   },
   // {
   //   title: "Word Analytics",
