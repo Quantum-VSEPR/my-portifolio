@@ -20,29 +20,17 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className=" text-left">
-        Hello there! <span className="italic">I'm Eyob Degefu</span> , a
-        passionate and result-driven{" "}
-        <span className="font-bold">Full-Stack Developer</span> with a keen
-        interest in crafting robust and scalable web applications. I thrive on
-        challenges and love turning ideas into functional, user-friendly
-        software.
+      Hello! <span className="italic">I'm Eyob, </span> 
+        <span className="font-bold">Full-Stack Developer</span> with a passion for building reliable and scalable web applications. I enjoy taking on challenges and transforming ideas into functional, user-friendly software.
         <br />
         <br />
-        My journey began with front-end technologies, where I honed my skills in
-        crafting responsive and intuitive user interfaces. As I delved deeper
-        into the world of web development, I expanded my expertise to include
-        back-end technologies, databases, and server management.
+        I started out in front-end development, focusing on creating responsive and user-friendly interfaces. Over time, I expanded my skills to include back-end development, databases, and server management, allowing me to handle the full spectrum of web development.
         <br />
         <br />
-        The tech landscape is ever-evolving, and I am committed to staying
-        current with the latest industry trends. Whether it's adopting new
-        technologies or refining existing skills, I believe in a continuous
-        learning mindset.
+        I'm committed to keeping up with the latest industry trends and continuously improving my skills. I love collaborating on projects, sharing knowledge, and contributing to the tech community. 
         <br />
-        <br />I am always eager to collaborate on exciting projects, share
-        knowledge, and contribute to the tech community. If you're looking for a
-        dedicated full-stack developer with a passion for innovation, feel free
-        to reach out. Let's build something amazing together!
+        <br />
+        If you're looking for a skilled full-stack developer to bring your vision to life, let's collaborate and make something incredible together!
       </p>
     </motion.section>
   );

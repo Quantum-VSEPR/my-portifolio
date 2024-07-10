@@ -1,6 +1,7 @@
 import ACSIS from "@/public/acsis-landing-page.png";
 import chatGPTClone from "@/public/gpt-clone.png";
 import digitalDazzle from "@/public/digitaldazzle.png";
+import AYAInnovation from "@/public/aya-innovation-hero-page.png";
 
 export const links = [
   {
@@ -60,7 +61,7 @@ export const projectsData = [
   {
     title: "ACSIS",
     description:
-      "I worked as a full-stack developer on this startup project for half years.",
+      "The African Healthcare System Impact Syndicate (ACSIS) enhances healthcare delivery through innovative digital solutions, improving accessibility and efficiency.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "MySQL", "PHP"],
     imageUrl: ACSIS,
     links: "https://acsisethiopi.web.app/",
@@ -68,7 +69,7 @@ export const projectsData = [
   {
     title: "ChatGPT Clone",
     description:
-      "I cloned ChatGPT during its peak popularity as it was a hot issue, diving into groundbreaking conversational AI technology.",
+      "I cloned ChatGPT when it was extremely popular, allowing me to use my own version of this cutting-edge conversational AI even when it wasn't accessible in Africa.",
     tags: ["TypeScript", "React", "Next.js", "Tailwind", "Oauth"],
     imageUrl: chatGPTClone,
     links: "https://chat-gpt-clone-dev.vercel.app",
@@ -93,13 +94,13 @@ export const projectsData = [
     imageUrl: digitalDazzle,
     links: "https://digitaldazzle.onrender.com",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "AYA Inovation",
+    description:
+      "AYA Innovation makes mental health and wellness support accessible and affordable for everyone. They break down barriers to ensure all benefit from the latest advancements in mental health care. Their mission is to provide inclusive and comprehensive support.",
+    tags: ["HTML", "CSS", "JavaScript", "PHP"],
+    imageUrl: AYAInnovation,
+  },
 ] as const;
 
 export const skillsData = [

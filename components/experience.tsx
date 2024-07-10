@@ -2,10 +2,10 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+// import {
+//   VerticalTimeline,
+//   VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
@@ -22,19 +22,16 @@ export default function Experience() {
     >
       <SectionHeading>My experience</SectionHeading>
       <p className="mb-3 text-left">
-        During my enriching six-month tenure at ACSIS (Healthcare System Impact
-        Syndicate), I thrived as a fullstack engineer. My responsibilities
-        encompassed architecting robust systems, collaborating seamlessly with
-        cross-functional teams, and ensuring the seamless integration of
-        front-end and back-end components. I played a pivotal role in designing
-        and implementing innovative solutions to enhance the overall
-        functionality and user experience of healthcare applications. This
-        experience not only honed my technical skills but also deepened my
-        understanding of the healthcare sector's unique challenges and
-        requirements. Working within the dynamic environment of ACSIS allowed me
-        to contribute meaningfully to the development of impactful healthcare
-        solutions, solidifying my position as a versatile and proficient
-        fullstack developer.
+
+        During my time at the African Healthcare System Impact Syndicate (ACSIS), I played a crucial role as a full-stack engineer. My primary responsibility was to develop and integrate robust systems that significantly enhanced the functionality and user experience of our healthcare applications. By working closely with cross-functional teams, I successfully increased user engagement by developing optimized web solutions for a large user base. This experience allowed me to contribute meaningfully to the organization through the implementation of efficient digital solutions
+      </p>
+      <p className="mb-3 text-left">
+
+        At the Ethiopian Thoracic Society (ETS), I focused on improving access to respiratory health information and enhancing healthcare delivery efficiency. I developed and maintained healthcare portals that served a substantial number of users, ensuring they had access to vital health information. My efforts also included creating new systems that boosted healthcare delivery efficiency. My contributions involved implementing cost-effective technology solutions tailored to their specific needs.
+      </p>
+      <p className="mb-3 text-left">
+
+        In addition to my work with ACSIS and ETS, I have collaborated with various other clients on a range of web development projects. These experiences have further refined my skills in creating user-friendly and impactful web solutions. Working with diverse clients has allowed me to adapt to different requirements and deliver customized solutions that meet their unique needs. Through these projects, I have consistently demonstrated my ability to enhance user engagement and improve overall functionality, solidifying my reputation as a versatile and proficient full-stack developer.
       </p>
     </section>
   );

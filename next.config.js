@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
-const events = require('events');
-events.EventEmitter.defaultMaxListeners = 20;
 const nextConfig = {
+  
   images: {
     remotePatterns: [
       {
@@ -9,9 +8,6 @@ const nextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
-  },
-  experimental: {
-    serverActions: true,
   },
 };
 
