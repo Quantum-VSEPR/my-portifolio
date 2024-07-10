@@ -64,7 +64,7 @@ export const projectsData = [
       "The African Healthcare System Impact Syndicate (ACSIS) enhances healthcare delivery through innovative digital solutions, improving accessibility and efficiency.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "MySQL", "PHP"],
     imageUrl: ACSIS,
-    links: "https://acsisethiopi.web.app/",
+    link: "https://acsisethiopi.web.app/",
   },
   {
     title: "ChatGPT Clone",
@@ -72,7 +72,7 @@ export const projectsData = [
       "I cloned ChatGPT when it was extremely popular, allowing me to use my own version of this cutting-edge conversational AI even when it wasn't accessible in Africa.",
     tags: ["TypeScript", "React", "Next.js", "Tailwind", "Oauth"],
     imageUrl: chatGPTClone,
-    links: "https://chat-gpt-clone-dev.vercel.app",
+    link: "https://chat-gpt-clone-dev.vercel.app",
   },
   {
     title: "Digitaldazzle",
@@ -92,7 +92,7 @@ export const projectsData = [
       "react-toastify",
     ],
     imageUrl: digitalDazzle,
-    links: "https://digitaldazzle.onrender.com",
+    link: "https://digitaldazzle.onrender.com",
   },
   {
     title: "AYA Inovation",
@@ -100,7 +100,7 @@ export const projectsData = [
       "AYA Innovation makes mental health and wellness support accessible and affordable for everyone. They break down barriers to ensure all benefit from the latest advancements in mental health care. Their mission is to provide inclusive and comprehensive support.",
     tags: ["HTML", "CSS", "JavaScript", "PHP"],
     imageUrl: AYAInnovation,
-    links: "https://aya-innovation.com",
+    link: "https://aya-innovation.com",
   },
 ] as const;
 
