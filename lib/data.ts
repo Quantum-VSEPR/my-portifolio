@@ -100,6 +100,7 @@ export const projectsData = [
       "AYA Innovation makes mental health and wellness support accessible and affordable for everyone. They break down barriers to ensure all benefit from the latest advancements in mental health care. Their mission is to provide inclusive and comprehensive support.",
     tags: ["HTML", "CSS", "JavaScript", "PHP"],
     imageUrl: AYAInnovation,
+    links: "https://aya-innovation.com",
   },
 ] as const;
 
