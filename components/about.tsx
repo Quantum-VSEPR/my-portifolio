@@ -20,8 +20,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className=" text-left">
-      Hello! <span className="italic">I'm Eyob, </span> a 
-        <span className="font-bold">Full-Stack Developer</span> with a passion for building reliable and scalable web applications. I enjoy taking on challenges and transforming ideas into functional, user-friendly software.
+      Hello! <span className="italic">I'm Eyob, </span> a  
+        <span className="font-bold"> Full-Stack Developer</span> with a passion for building reliable and scalable web applications. I enjoy taking on challenges and transforming ideas into functional, user-friendly software.
         <br />
         <br />
         I started out in front-end development, focusing on creating responsive and user-friendly interfaces. Over time, I expanded my skills to include back-end development, databases, and server management, allowing me to handle the full spectrum of web development.
